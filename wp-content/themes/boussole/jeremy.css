@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto|Roboto+Condensed');
+
+
+@media screen and (max-width: 1280px)
+{
+	.site-branding {
+		float: none;
+	}
+}
+
+.select {
+	position:relative;
+		right:50px;
+}
+
+.jerem {
+	background-color:white;
+}
+
+.widget > ul li {
+	padding:0;
+}
+
+
+.ptn {
+	max-width: 200px;
+}
+
+ .n2-style-09efebcef1f2f45d29438e0cabcf79bc-dot.n2-active,  .n2-style-09efebcef1f2f45d29438e0cabcf79bc-dot:HOVER {
+	 background: yellow;
+}
