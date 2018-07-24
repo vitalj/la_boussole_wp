@@ -1,0 +1,363 @@
+.menu-toggle{
+	border-color:white;
+}
+.elementor-row{
+	padding-top:7%;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: none;
+    color: #6636cc;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 0.8em 1.6em 0.8em;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 0.8em 1.6em 0.8em;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+} 
+a{
+	color:gray;
+}
+a.more-link{
+	color:gray;
+}
+
+.page-title{ 
+	color:black;
+	font-family:Roboto;
+}
+h1 h2{
+	color:black;
+}
+
+
+/* Extra small max width 576px */
+@media (max-width:576px){
+	.site-branding{
+		margin:0;
+	}
+	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+    border-color: gray;
+    box-shadow: none;
+    color: gray;
+}
+	#masthead #site-navigation {
+     margin-left: 0; 
+    /* text-align: center; */
+}
+	.site-branding{
+		margin: 0;
+	}
+	.menu-toggle{
+		margin:0;
+		display:flex;
+	}
+	.menu-menu_pricipal-container{
+		display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.nwa-widget{
+		
+      justify-content: center;
+    margin: 0;
+    display: flex;
+    margin-left: 86%;
+   }
+	.menu-menu_pricipal-container{
+		padding-top:5%;
+	}
+	.switcher{
+		padding-top: 5%;
+	}
+}
+
+/* SMALL max width 767px */
+@media (min-width:576px) and (max-width:767px){
+	.site-branding{
+		margin:0;
+	}
+	.nwa-widget{
+		padding-top:5%;
+	}
+	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+    border-color: gray;
+    box-shadow: none;
+    color: gray;
+}
+	#masthead #site-navigation {
+     margin-left: 0; 
+    /* text-align: center; */
+}
+	.site-branding{
+		margin: 0;
+	}
+	.menu-toggle{
+		margin:0;
+		display:flex;
+	}
+	.menu-menu_pricipal-container{
+		display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.nwa-widget{
+		
+      justify-content: center;
+    margin: 0;
+    display: flex;
+    margin-left: 86%;
+   }
+	.menu-menu_pricipal-container{
+		padding-top:5%;
+	}
+	.switcher{
+		padding-top: 5%;
+	}
+}
+
+/*Responsive pour i pad pro */
+@media screen and (min-width:992px) and (max-width:1199px)
+{
+#top-menu{
+       width: 785px;    
+   
+}
+	
+	.nwa-widget{
+		top:-85px;
+	}
+	.menu .nav-menu{
+		 width: 785px;   
+	}
+	.main-navigation .toggled{
+		 margin: 0;
+	}
+	.main-navigation {
+    font-size: 11px !important;
+		width: 100%;
+  
+}
+	#masthead #site-navigation {
+       margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+	#site-navigation{
+	margin:0;
+	}
+	.site-branding {
+		margin-left: -10%;
+		top: 0;
+    float: none;
+    position: absolute;
+	}
+	.menu .nav-menu{		  
+      
+	}
+.menu-toggle {
+    margin: 0;
+    display: flex;
+	    border-color: white;
+	}
+	.main-navigation {
+		padding-top:20%;
+        display: table;
+    table-layout: fixed;
+	}
+
+	.menu-menu_pricipal-container {
+		  padding-top: 5%;
+		 
+	 display:flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+}
+	
+	.main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+    border-color: gray;
+    box-shadow: none;
+    color: gray;
+}
+}
+/*Medium min 768  max width  */
+@media (min-width:768px) and (max-width:991px) and (orientation:portrait){
+	#top-menu{
+       width: 785px;    
+   
+}
+	
+	.nwa-widget{
+		top:-85px;
+	}
+	.menu .nav-menu{
+		 width: 785px;   
+	}
+	.main-navigation .toggled{
+		 margin: 0;
+	}
+	.main-navigation {
+    font-size: 11px !important;
+		width: 100%;
+  
+}
+	#masthead #site-navigation {
+       margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+	#site-navigation{
+	margin:0;
+	}
+	.site-branding {
+		margin-left: -10%;
+		top: 0;
+    float: none;
+    position: absolute;
+	}
+	.menu .nav-menu{		  
+      
+	}
+.menu-toggle {
+    margin: 0;
+    display: flex;
+	    border-color: white;
+	}
+	.main-navigation {
+		padding-top:20%;
+        display: table;
+    table-layout: fixed;
+	}
+
+	.menu-menu_pricipal-container {
+		  padding-top: 5%;
+		 
+	 display:flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+}
+	
+	.main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+    border-color: gray;
+    box-shadow: none;
+    color: gray;
+}
+}
+/*pour mobile paysage*/
+@media (min-width:768px) and (max-width:991px) and (orientation:landscape){	
+	#top-menu{
+       width: 825px;    
+    padding-top: 3%;
+		
+}
+	.menu .nav-menu{
+		 width: 825px;   
+		
+	}
+	.main-navigation .toggled{
+		 margin: 0;
+	}
+	.main-navigation {
+    font-size: 11px !important;
+		width: 100%;
+  
+}
+	#masthead #site-navigation {
+       margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+	#site-navigation{
+	margin:0;
+	}
+	.site-branding {
+		margin-left: -10%;
+		top: 0;
+    float: none;
+    position: absolute;
+	}
+	.menu .nav-menu{		  
+      
+	}
+.menu-toggle {
+    margin: 0;
+    display: flex;
+	    border-color: white;
+	}
+	.main-navigation {
+		padding-top:20%;
+        display: table;
+    table-layout: fixed;
+	}
+
+	.menu-menu_pricipal-container {
+		 
+		 
+	 display:flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+}
+	
+	.main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+	button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+    border-color: gray;
+    box-shadow: none;
+    color: gray;
+}
+	.nwa-widget{
+		top:-85px;
+	}
+
+}
