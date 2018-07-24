@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto|Roboto+Condensed');
+
+h1 h2 {
+	font-family:Roboto;
+}
+@media only screen and ( max-width: 578px) {
+    #full-screen-photo{
+        width: 100% !important;
+    }
+    .tof{
+        margin-bottom: 10%;
+
+    }
+    .custom-logo{
+        max-height: 150px !important;
+    }
+    .nwa-widget{
+        position: absolute;
+        top:0 !important;
+        z-index: 25;
+       
+            margin-top: 10px;
+    }
+    #Rarrow{
+        top: 25%;
+        margin-right: 20px;
+    }
+    #Larrow{
+        top: 25%;
+        margin-left: 20px;
+    }
+    .entry-header{
+        text-align: center;
+    }
+    
+    #top-menu{
+
+   
+    width: 300px !important;
+    }
+    .site-branding{
+        margin-right: 0 !important;
+
+    }
+
+    .sticky-wrapper {
+       
+        padding-right: 0%!important;
+    }
+}
+.page-header{
+    padding-top: 5%; }
+    
+
+.slot-description-photo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.text-description-photo{
+    color:black;
+    margin-top:5px;
+}
+.description-video-slot{
+    margin-top: 5px;
+}
+
+.sub-menu{
+    background-color: #aec26b !important;
+}
+.text-video-slot{
+    margin-top:0;
+    margin-bottom: 6%;
+}
+.photo-type{
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.site-content{
+	padding-top:5%;
+}
+
+.leftarrowslot{
+    position: fixed;
+height:100%;
+z-index: 110;
+width:5%;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.entry-header{
+    text-align: center;
+}
+.rightarrowslot{
+    position: fixed;
+    height:100%;
+    z-index: 110;
+    width:5%;
+    right: 0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video-type{
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.nwa-title{
+    display:none;
+}
+.hidden-photo{
+    display:none;
+    width:0% !important;
+    height: 0% !important;
+}
+  #secondary{
+      padding-top:15%;
+  }
+.video-slot{
+    margin-bottom: 5%;
+    width:70%;
+}
+
+.allvideos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-select{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+/* body{
+    padding:0 !important;
+}
+ */
+
+
+ .alignnone{
+    width: 100%;
+    
+    margin-right:15px;
+    margin-bottom: 0;
+    border:  rgb(234, 234, 234)!important;
+    border-style: solid !important;
+    border-top-style: solid!important;
+    border-right-style: solid!important;
+    border-bottom-style: solid!important;
+    border-left-style: solid!important;
+    border-width: 9px !important;
+}
+
+.photographies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+a:visited {
+    color: gray;
+    } 
+    .main-navigation a, .main-navigation a:visited {
+        color: white;
+     } 
+
+
+.selectcat{
+    margin-bottom:15px;
+}
+
+
+html.supports.csstransforms3d.csstransformspreserve3d body.home.page-template.page-template-templates.page-template-full-width-page.page-template-templatesfull-width-page-php.page.page-id-121.logged-in.admin-bar.custom-background.wp-custom-logo.page-template-front-page.no-top-bar.elementor-default.customize-support{
+    padding-top:0 !important;
+}
+body{
+    padding-top:0 !important;
+}
+
+
+.photo-up{
+    background-color: rgba(20, 19, 19, 0.849);
+    position:fixed;
+    z-index:50;
+    width: 100%;
+    height: 100%;
+    visibility:hidden;
+}
+.site-navigation{
+    text-align: center;
+}
+.site-branding{
+    min-width: 1% !important;
+    margin-right: 0;
+    margin-left: 86px;
+}
+ 
+.custom-logo{
+    max-height: 100px !important;
+}
+#top-menu{
+    
+    width: 978px;
+}
+.main-navigation{
+    font-size: 12px !important;
+}
+.nwa-header-widget{
+    margin-left:3% !important;
+    position: relative;
+    top: 0;
+    z-index: 25;
+}
+
+.more-recent-posts button{ color: gray;
+    border-color: gray; }
+    .entry-header{ padding-top: 5%; } 
+h1.entry-header{ padding-top: 5%; } 
+.nwa-widget{
+    position: absolute;
+    top: -13px;
+    z-index: 25;
+    left:-205px;
+}
+#full-screen-photo{
+    z-index: 100;
+    position: fixed;
+    top:15%;
+    width:60%;
+    max-height: 80%;
+    display: none;
+}
+
+.popup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#masthead .sticky-wrapper{
+    width:100%;
+}
+#masthead .sticky-wrapper .site-branding-wrapper{
+    max-width:100%;
+}
+
+#masthead #site-navigation{
+    margin-left : -142.4px;
+    text-align: center;
+}
+.closeBtn{
+font-size: 2rem;
+color:white;
+margin-left:5%;
+margin-top:5%;
+}
+
+
+.elementor img{
+    height: 20%;
+}
+.reglage-photo{
+    height: 181px;
+    overflow: hidden;
+}
+.tof{
+    display: inline-block;
+    height: 250px;
+    overflow: hidden;
+    margin:1%;
+    width: 300px;
+    cursor: pointer;
+    /* border:black;
+    border-style:double; */
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive !important;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+.visible{
+    -webkit-box-shadow: -8px -3px 38px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px -3px 38px -10px rgba(0,0,0,0.75);
+    box-shadow: -8px -3px 38px -10px rgba(0,0,0,0.75);
+    
+}
+
+
+
+#colophon{
+    padding-left: 5%;
+}
+
+.site-footer{
+    background-color: #aec26b;
+}
+
+
+
+.arrow{
+    color:white;
+    font-size: 6em;
+    cursor: pointer;
+   
+}
+
+html body.home.page-template-default.page.page-id-121.custom-background.wp-custom-logo.page-template-front-page.no-top-bar.elementor-default.elementor-page.elementor-page-121 div#page.site.container div#content.site-content div#primary.content-area main#main.site-main article#post-121.post-121.page.type-page.status-publish.hentry div.entry-content div.elementor.elementor-121 div.elementor-inner div.elementor-section-wrap section.elementor-element.elementor-element-f24953f.elementor-section-boxed.elementor-section-height-default.elementor-section.elementor-top-section div.elementor-container.elementor-column-gap-default div.elementor-row div.elementor-element.elementor-element-f889d8d.elementor-column.elementor-col-100.elementor-top-column div.elementor-column-wrap.elementor-element-populated div.elementor-widget-wrap div.elementor-element.elementor-element-b305904.elementor-widget.elementor-widget-heading div.elementor-widget-container h2.elementor-heading-title.elementor-size-default{
+margin-top: 5% !important;
+}
+
+.site-main{
+    padding-top:5%;
+}
